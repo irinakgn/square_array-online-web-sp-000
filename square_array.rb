@@ -4,7 +4,6 @@ def square_array(array)
   while num_of_hotdogs_eaten < array.length
     new_array.push(array[num_of_hotdogs_eaten] ** 2)
     num_of_hotdogs_eaten += 1
-    
   end
   new_array
 end
